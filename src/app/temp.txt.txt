@@ -1,0 +1,5 @@
+let { data: { user_data: { _id } = {} } = {} } = response;
+          console.log(_id)
+          let verficationObject = {
+            _id
+          }

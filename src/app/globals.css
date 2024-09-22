@@ -1,0 +1,26 @@
+.pointer {
+    cursor: pointer !important;
+}
+
+.is-invalid {
+    border-color: #fcbba5 !important;
+}
+
+.color-container{
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
+}
+
+
+.color-container .col-md-2 {
+    height: calc(100vh - 15vh) !important;
+}
+
+.search-toggle:hover {
+color : #8f93f6;
+}
+
+.nav-icon .active {
+    color: #8f93f6 !important;
+}
